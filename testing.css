@@ -1,19 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 .snip1529 {
-  background-color: #000000; !important
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); !important
+  background-color: #000000 !important; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15) !important; 
   color: #ffffff !important; 
-  font-family: 'Open Sans', Arial, sans-serif; !important
-  font-size: 16px; !important
-  line-height: 1.6em; !important
-  margin: 10px; !important
-  max-width: 310px; !important
-  min-width: 250px; !important
-  overflow: hidden; !important
-  position: relative; !important
-  text-align: left; !important
-  width: 100%; !important
+  font-family: 'Open Sans', Arial, sans-serif !important; 
+  font-size: 16px !important; 
+  line-height: 1.6em; 
+  margin: 10px; 
+  max-width: 310px; 
+  min-width: 250px; 
+  overflow: hidden; 
+  position: relative; 
+  text-align: left; 
+  width: 100%; 
 }
 
 .snip1529 * {
