@@ -17,3 +17,8 @@
   text-align: center;
   line-height:4em;
 }
+.icon_container  {
+  width:80%;
+  height:200px;
+  margin:auto;
+}
