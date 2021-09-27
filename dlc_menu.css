@@ -1447,7 +1447,7 @@ body.open-login .fullheight-wrapper {
     font-weight: normal;
     font-style: italic; }
   .hero-image.hero-home {
-    background-image: url('https://www.persolkellyconsulting.com.hk/media/pcghk/client/dlc2022/img/DLCBanner.jpg') center top no-repeat; }
+    background: url('https://www.persolkellyconsulting.com.hk/media/pcghk/client/dlc2022/img/DLCBanner.jpg') center top no-repeat; }
     .hero-image.hero-home .hero-copy {
       vertical-align: bottom;
       padding-bottom: 2.8125em;
