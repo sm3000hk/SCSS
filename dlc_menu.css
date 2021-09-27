@@ -4,4 +4,144 @@
 /*
 Menu CSS
 */
-*{margin:0;padding:0}body{color:#FFF;background:#222;margin:0;padding:0;font-family:tahoma;min-height:2000px}span.logo{position:fixed;z-index:99999;margin:25px 0 0 35px;font-size:19px;font-weight:bold;color:#E8F873}span.logo span{color:#300}ul{text-align:center;list-style:none;padding:0;margin:0;height:73px;position:fixed;width:100%;background:rgba(207,65,65,0.25);top:0;left:0;z-index:1}ul li{display:inline-block;cursor:pointer}ul li a{text-decoration:none;color:#123;display:block;padding:27px 35px;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;font-size:14px;font-weight:bold}ul li a:hover{color:#FFF;text-shadow:0px 1px 1px #fff}#all-div{width:100%;height:100%;position:absolute;text-align:center;font-size:25px;font-weight:bold;font-family:verdana}.home{color:#FFF;text-shadow:0px 1px 2px #fff;font-size:16px}#link1 {background:#008080;height:100%;padding-top:100px}#link2{background:#60F;height:100%;padding-top:100px}#link3{background:#990;height:100%;padding-top:100px}#link4{background:#E100C8;height:100%;padding-top:100px}#link5{background:#936;height:100%;padding-top:100px}.top{width:50px;height:50px;border-radius:100%;background:#1A5F5F;position:fixed;top:620px;left:23px;text-shadow:1px 1px 4px #222;cursor:pointer;outline:0;color:#FFF;font-weight:bold;font-size:15px;display:none;z-index:99999;text-align:center;line-height:50px;text-decoration:none;border:3px solid #EEE;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease}.top:active{border:3px solid #1A5F5F;background:#EEE;color:#001717}.top span{color:#FF5F49}
+
+.menu {
+  position: relative;
+  background: #cd3e3d;
+  width: 3em;
+  height: 3em;
+  border-radius: 5em;
+  margin: auto;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  cursor: pointer;
+  border: 1em solid #fdaead;
+}
+.menu:after {
+  content: "";
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  width: 1em;
+  height: 0.2em;
+  border-top: 0.6em double #fff;
+  border-bottom: 0.2em solid #fff;
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+.menu li {
+  width: 5em;
+  height: 1.4em;
+  padding: 0.2em;
+  margin-top: 0.2em;
+  text-align: center;
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  transition: all 1s;
+  background: #fdaead;
+  opacity: 0;
+  z-index: -1;
+}
+.menu:hover li {
+  opacity: 1;
+}
+/**
+ * Add a pseudo element to cover the space
+ * between the links. This is so the menu
+ * does not lose :hover focus and disappear
+ */
+.menu:hover ul::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  left: 50%;
+  top: -5.0em;
+  /**
+   * The pseudo-element is a semi-circle
+   * created with CSS. Top, bottom, and right
+   * borders are 6.5em (left being 0), and then
+   * a border-radius is added to the two corners
+   * on the right.
+   */
+  border-width: 6.5em;
+  border-radius: 0 7.5em 7.5em 0;
+  border-left: 0;
+  border-style: solid;
+  /**
+   * Have to have a border color for the border
+   * to be hoverable. I'm using a very light one
+   * so that it looks invisible.
+   */
+  border-color: rgba(0,0,0,0.01);
+  /**
+   * Put the psuedo-element behind the links
+   * (So they can be clicked on)
+   */
+  z-index: -1;
+  /**
+   * Make the cursor default so it looks like
+   * nothing is there
+   */
+  cursor: default;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  /**
+   * This is to vertically center the text on the
+   * little tab-like things that the text is on.
+   */
+  line-height: 1.5em;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+.menu ul {
+  transform: rotate(180deg) translateY(-2em);
+  transition: 1s all;
+}
+.menu:hover ul {
+  transform: rotate(0deg) translateY(-1em);
+}
+.menu li:hover {
+  background: #cd3e3d;
+  z-index: 10;
+}
+
+.menu li:nth-of-type(1) {
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -1.2em;
+  top: -4.2em;
+}
+.menu li:nth-of-type(2) {
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 2em;
+  top: -3em;
+}
+.menu li:nth-of-type(3) {
+  position: absolute;
+  left: 3.4em;
+  top: 0.3em;
+}
+.menu li:nth-of-type(4) {
+  transform: rotate(45deg);
+  position: absolute;
+  left: 2em;
+  top: 3.7em;
+}
+.menu li:nth-of-type(5) {
+  transform: rotate(90deg);
+  position: absolute;
+  left: -1.2em;
+  top: 5em;
+}
+.hint {
+  text-align: center;
+}
