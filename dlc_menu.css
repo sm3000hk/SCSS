@@ -1085,7 +1085,7 @@ body.business {
       outline: none; }
   .signup-form .form-row.on input,
   .signup-form .form-row.on textarea {
-    border: 2px solid #fbd24a;
+    border: 2px solid #FFB009;
     padding: 0 0.5em; }
   .signup-form .form-row.error input,
   .signup-form .form-row.error textarea {
@@ -1223,7 +1223,7 @@ body.business {
   white-space: nowrap;
   overflow: hidden; }
 .wahanda-dropdown.on .wrapper a {
-  border: 2px solid #fbd24a;
+  border: 2px solid #FFB009;
   line-height: 1.88889em;
   padding-left: 0.5em; }
 .wahanda-dropdown.on .wrapper.error .error-message {
@@ -3115,7 +3115,7 @@ select {
     .status-label.label-information-strong:after {
       background: url('https://cdneu2.wahanda.net/images/static/banner/corners-right-dark.png') 0 0 no-repeat; }
   .status-label.label-action {
-    background-color: #fbd24a;
+    background-color: #FFB009;
     color: #fff;
     color: #333; }
     .status-label.label-action:before {
@@ -3466,7 +3466,7 @@ h4 {
   .ui-menu .ui-menu-item #ui-active-menuitem {
     border: 0;
     margin: 0;
-    background: #fbd24a;
+    background: #FFB009;
     color: #000;
     cursor: pointer; }
   .ui-menu .ui-autocomplete-error {
@@ -3505,13 +3505,13 @@ h4 {
   border: 0 !important; }
 .ui-selectmenu-menu .ui-state-hover a,
 .ui-selectmenu-menu .ui-selectmenu-item-focus a {
-  background: #fbd24a;
+  background: #FFB009;
   color: #000; }
 .ui-selectmenu-menu .ui-selectmenu-item-selected a, .ui-selectmenu-menu .ui-selectmenu-item-selected a:focus {
   background: none;
   color: #4a4a49; }
 .ui-selectmenu-menu .ui-selectmenu-item-selected.ui-state-hover a, .ui-selectmenu-menu .ui-selectmenu-item-selected.ui-selectmenu-item-focus a {
-  background: #fbd24a;
+  background: #FFB009;
   color: #000; }
 .ui-selectmenu-menu .ui-selectmenu-group .ui-selectmenu-group-label {
   line-height: 0;
@@ -3603,7 +3603,7 @@ h4 {
     padding: 0.9375em; }
     .ui-datepicker .datepicker-actions .button.main-action {
       float: right;
-      background: #fbd24a;
+      background: #FFB009;
       border-bottom: 1px solid #e1bd42;
       color: #4a4a49;
       text-shadow: 0 1px 0 #fde598; }
@@ -3665,7 +3665,7 @@ h4 {
       font-weight: bold;
       color: #333; }
     .ui-datepicker td a.ui-state-hover {
-      background: #fbd24a;
+      background: #FFB009;
       color: #4a4a49;
       border: 0; }
     .ui-datepicker td a.ui-state-active {
@@ -3737,7 +3737,7 @@ h4 {
 .wahanda-dropdown-small.used .wrapper,
 .wahanda-dropdown-small.used .ui-state-default, .wahanda-dropdown-small.on .wrapper,
 .wahanda-dropdown-small.on .ui-state-default {
-  border-color: #fbd24a; }
+  border-color: #FFB009; }
 .wahanda-dropdown-small .input-icon {
   position: absolute;
   top: 0.375em;
@@ -3805,7 +3805,7 @@ h4 {
 .wahanda-complete-small.used input,
 .wahanda-date-small.used .wrapper,
 .wahanda-date-small.used input {
-  border-color: #fbd24a; }
+  border-color: #FFB009; }
 
 .ui-slider.ui-slider-horizontal {
   height: 6px;
@@ -3844,7 +3844,7 @@ h4 {
   -webkit-font-smoothing: antialiased;
   overflow: hidden; }
   .button.main-button {
-    background: #fbd24a;
+    background: #FFB009;
     border-bottom: 1px solid #e1bd42;
     color: #4a4a49; }
   .button.other-button {
@@ -4158,14 +4158,14 @@ h4 {
     background: #fff url('https://cdneu2.wahanda.net/images/static/searching-small.gif') center center no-repeat; }
   .wahanda-complete-small-home.used {
     width: 17.75em;
-    border-color: #fbd24a;
+    border-color: #FFB009;
     -moz-transition-delay: 0s;
     -o-transition-delay: 0s;
     -webkit-transition-delay: 0s;
     transition-delay: 0s; }
     .wahanda-complete-small-home.used input {
       width: 17.625em;
-      border-color: #fbd24a;
+      border-color: #FFB009;
       -moz-transition-delay: 0s;
       -o-transition-delay: 0s;
       -webkit-transition-delay: 0s;
@@ -4324,7 +4324,7 @@ h4 {
     #nav a:hover {
       background: url('https://cdneu2.wahanda.net/images/static/nav-tip.png') center bottom no-repeat; }
       #nav a:hover span {
-        background: #fbd24a; }
+        background: #FFB009; }
   #nav .nav-unit.no-subnav a:hover {
     background: none; }
   #nav .nav-unit.on {
@@ -4333,7 +4333,7 @@ h4 {
       background: url('https://cdneu2.wahanda.net/images/static/nav-tip.png') center bottom no-repeat;
       color: #4a4a49; }
       #nav .nav-unit.on a span {
-        background: #fbd24a; }
+        background: #FFB009; }
     #nav .nav-unit.on.no-subnav {
       background: none;
       font-weight: bold; }
@@ -4693,7 +4693,7 @@ body.homepage {
     padding: 0 0.4375em; }
   .form-row.on input,
   .form-row.on textarea {
-    border: 2px solid #fbd24a;
+    border: 2px solid #FFB009;
     padding: 0 0.375em; }
   .form-row.on input {
     line-height: 1.5em; }
@@ -5898,7 +5898,7 @@ body:not(.responsive) #header-login .sign-up {
   .txt-input input:-webkit-autofill {
     background-color: #fff !important; }
   .txt-input.on input {
-    border-color: #fbd24a; }
+    border-color: #FFB009; }
   .txt-input.error {
     border-left: 2px solid #cc3333; }
     .txt-input.error input {
@@ -7019,7 +7019,7 @@ body:not(.responsive) #header-login .sign-up {
     font-size: 14px !important; }
     .ui-dialog .marketing-email-popup-dialog #newsletter-marketing-signup-form input:focus {
       background: #fafafa;
-      border-color: #fbd24a;
+      border-color: #FFB009;
       outline: none; }
     .ui-dialog .marketing-email-popup-dialog #newsletter-marketing-signup-form input.newsletter-error {
       border-color: #cc3333; }
@@ -7038,7 +7038,7 @@ body:not(.responsive) #header-login .sign-up {
     cursor: pointer;
     border: 0;
     border-radius: 0;
-    background: #fbd24a;
+    background: #FFB009;
     border-bottom: 1px solid #e1bd42;
     color: #4a4a49;
     text-shadow: 0 1px 0 #fde598; }
@@ -7164,7 +7164,7 @@ body:not(.responsive) #header-login .sign-up {
       margin: 0 0.54545em;
       border: 0;
       border-bottom: 1px solid #e1bd42;
-      background: #fbd24a;
+      background: #FFB009;
       color: #4a4a49;
       text-shadow: 0 1px 0 #fde598; }
       .share-activity-popup .social-networking a:hover {
@@ -7473,7 +7473,7 @@ body:not(.responsive) #header-login .sign-up {
     .pages .page.current, .pages .page.current:hover,
     .pages .navigation.current,
     .pages .navigation.current:hover {
-      background: #fbd24a;
+      background: #FFB009;
       border-bottom: 1px solid #e1bd42;
       color: #4a4a49;
       text-shadow: 0 1px 0 #fde598;
@@ -7787,7 +7787,7 @@ body:not(.responsive) #header-login .sign-up {
       display: block;
       width: 3.375em;
       height: 3.125em;
-      background: #fbd24a;
+      background: #FFB009;
       overflow: hidden; }
       .recommended-offers .offer .price .from {
         font-size: 0.625em;
@@ -8139,7 +8139,7 @@ body.service-details .sidebar-ad-holder {
   display: block;
   width: 3.375em;
   height: 3.125em;
-  background: #fbd24a;
+  background: #FFB009;
   overflow: hidden;
   text-align: center; }
   .price-box .value {
