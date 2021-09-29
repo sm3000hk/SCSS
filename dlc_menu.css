@@ -7,7 +7,6 @@ Menu CSS
   background-image: url('#');
   background-repeat: no-repeat; }
 
-
 .site-arrow-big-left {
   background-position: 0 0;
   height: 27px;
@@ -1562,7 +1561,7 @@ body.open-login .fullheight-wrapper {
   border-collapse: separate;
   border-spacing: 30px; }
   .content-boxes td {
-    width: 33.33333%;
+    width: 25%;
     background: white;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.27);
     padding: 1.625em 2.0625em 0.9375em;
