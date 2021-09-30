@@ -19,7 +19,6 @@ Shan CSS start
   max-width: 1520px;
   height: 500px;
   width: auto;
-  background-color: fuchsia;
   overflow: hidden;
 }
 
@@ -42,7 +41,6 @@ Shan CSS start
   height: 400px;
   max-width: 1920px;
   width: auto;
-  background-color: darkviolet;
 }
 
 #re-rscontent {
