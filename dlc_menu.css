@@ -5,7 +5,7 @@ Menu CSS
 */
 
 /*
-Shan CSS start
+Shan responsive CSS start
 */
 #re-wrapper {
   max-width: 1520px;
@@ -18,7 +18,7 @@ Shan CSS start
 
 #re-mcontent {
 	  flex: 1;
-  min-width: 500px;
+  min-width: 100px;
   max-width: 1520px;
   height: 500px;
   width: auto;
