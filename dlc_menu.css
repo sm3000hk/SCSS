@@ -12,9 +12,12 @@ Shan CSS start
   height: 880px;
   margin: 0 auto;
   width: 100%;
+ display: flex;
+	flex-wrap: wrap;
 }
 
 #re-mcontent {
+	  flex: 1;
   min-width: 500px;
   max-width: 1520px;
   height: 500px;
