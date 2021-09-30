@@ -1,25 +1,12 @@
-/*! jQuery v1.12.4 | (c) jQuery Foundation | jquery.org/license | WordPress 2019-05-16 */
-(function($){
-$(document).ready(function(){
-
-$('#cssmenu li.active').addClass('open').children('ul').show();
-	$('#cssmenu li.has-sub>a').on('click', function(){
-		$(this).removeAttr('href');
-		var element = $(this).parent('li');
-		if (element.hasClass('open')) {
-			element.removeClass('open');
-			element.find('li').removeClass('open');
-			element.find('ul').slideUp(200);
-		}
-		else {
-			element.addClass('open');
-			element.children('ul').slideDown(200);
-			element.siblings('li').children('ul').slideUp(200);
-			element.siblings('li').removeClass('open');
-			element.siblings('li').find('li').removeClass('open');
-			element.siblings('li').find('ul').slideUp(200);
-		}
+$(document).ready(function() {
+	/* Every time the window is scrolled ... */
+	$(window).scroll( function(){
+		$('.hide').each( function(i){
+			var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+			var bottom_of_window = $(window).scrollTop() + $(window).height();
+			if( bottom_of_window > bottom_of_object ){
+				$(this).animate({'opacity':'1'},500);
+			}
+		}); 
 	});
-
 });
-})(jQuery);
