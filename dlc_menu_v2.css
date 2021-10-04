@@ -32,12 +32,14 @@
 
 /* Header */
 #showcase {
+  min-height: 215px;
+  color: #fff;
   text-align: center;
 }
 #showcase .bg-image {
   position: absolute;
   background: url("https://www.persolkellyconsulting.com.hk/media/pcghk/client/dlc2022/img/DLCBannerb.jpg");
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
