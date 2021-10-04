@@ -70,20 +70,12 @@ height: 200px;
 }
 
 li {
-font-family: arial;
-list-style: none;
 text-align: center;
 float: left;
 width: 30%;
 line-height: 2;
 height: 35px;
-border: 1px solid #D6D6D6;
 padding: .625em .75em;
-}
-
-li:hover {
-background: #ECECEC;
-color:#0084B4;
 }
 
 @media only screen and (max-width: 900px)
