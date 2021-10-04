@@ -1,37 +1,22 @@
-/*
 
-Made following Traversy Media tutorial "Grid CSS Responsive Website Layout - 'Mobile First' Design"
-> https://www.youtube.com/watch?v=M3qBpPw77qo
+#dlcbody {
 
-> https://www.youtube.com/user/TechGuyWeb
-> https://www.traversymedia.com/
-
-*/
-
-/* Core Styles */
-#dlc_body {
-  margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
-  background: #333;
-  color: #fff;
-  font-size: 1em;
-  line-height: 1.5;
   text-align: center;
 }
-#dlc_body img {
+#dlcbody img {
   display: block;
   width: 100%;
   height: auto;
 }
-#dlc_body h1, h2, h3 {
+#dlcbody h1, h2, h3 {
   margin: 0;
   padding: 1em 0;
 }
-#dlc_body p {
+#dlcbody p {
   margin: 0;
   padding: 1em 0;
 }
-#dlc_body .btn {
+.btn {
   display: inline-block;
   background: #333;
   color: #fff;
@@ -40,7 +25,7 @@ Made following Traversy Media tutorial "Grid CSS Responsive Website Layout - 'Mo
   border: 1px solid #666;
   margin: .5em 0;
 }
-#dlc_body .btn:hover {
+.btn:hover {
   background: #eaeaea;
   color: #333;
 }
