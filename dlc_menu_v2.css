@@ -41,9 +41,9 @@
   background: url("https://www.persolkellyconsulting.com.hk/media/pcghk/client/dlc2022/img/DLCBannerb.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+
   width: 100%;
-  min-height: 215px;
+  height: auto;
   z-index: -1;
 }
 #showcase h1 {
