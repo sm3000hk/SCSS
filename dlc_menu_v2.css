@@ -58,6 +58,8 @@ border-radius: 50%;
   overflow: hidden;
   position: relative;
 	bottom: 0;
+	left: auto;
+	right:auto;
   color: #fff;
   font-weight: 700;
   font-size: 15px;
