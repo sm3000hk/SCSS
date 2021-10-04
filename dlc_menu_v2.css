@@ -9,7 +9,7 @@ Made following Traversy Media tutorial "Grid CSS Responsive Website Layout - 'Mo
 */
 
 /* Core Styles */
-body {
+#dlc_body {
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
   background: #333;
@@ -18,20 +18,20 @@ body {
   line-height: 1.5;
   text-align: center;
 }
-img {
+#dlc_body img {
   display: block;
   width: 100%;
   height: auto;
 }
-h1, h2, h3 {
+#dlc_body h1, h2, h3 {
   margin: 0;
   padding: 1em 0;
 }
-p {
+#dlc_body p {
   margin: 0;
   padding: 1em 0;
 }
-.btn {
+#dlc_body .btn {
   display: inline-block;
   background: #333;
   color: #fff;
@@ -40,7 +40,7 @@ p {
   border: 1px solid #666;
   margin: .5em 0;
 }
-.btn:hover {
+#dlc_body .btn:hover {
   background: #eaeaea;
   color: #333;
 }
