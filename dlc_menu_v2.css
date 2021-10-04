@@ -43,7 +43,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 430px;
+  height: 215px;
   z-index: -1;
 }
 #showcase h1 {
@@ -52,7 +52,7 @@
 }
 #showcase .content-wrap,
 #section-a .content-wrap {
-  padding: 1.5em;
+  padding: 0 1.5em;
 }
 
 /* Section A */
