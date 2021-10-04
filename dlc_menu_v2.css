@@ -71,7 +71,8 @@ display: inline-block;
   font-size: 15px;
   background-color: #222;
   padding: 12px 22px;
-  margin: 190px auto;
+	position: -190,0px;
+  margin: 0;
   box-shadow: 0 5px 15px rgba(0,0,0,0.20);
 }
 
