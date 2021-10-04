@@ -2,9 +2,11 @@
 /* CSS Document */
 
 #dlc_wrapper {
+	  margin: 0px;
   overflow: hidden;
 }
 #dlc_cover {
+	  margin: 0px;
   Width: 100%;
   height: 430px;
   border-bottom: 0px;
@@ -56,7 +58,7 @@ margin-right: auto;
 margin-left: auto;
 border-radius: 5px;
 width: 95%;
-height: 200px;
+height: 430px;
 }
 
 .dlc_li {
@@ -66,12 +68,12 @@ float: left;
 width: 20%;
 line-height: 2;
 height: 35px;
-border: 0px solid #D6D6D6;
+border: 0px;
 }
 
 .dlc_li:hover {
 background: #FFB81C;
-color:#0084B4;
+color:#FFFFFF;
 }
 
 @media only screen and (max-width: 900px)
@@ -79,7 +81,7 @@ color:#0084B4;
   #dlc_social {
 padding-left: 10%!important;
 }  
-  li {
+  .dlc_li {
 width: 20%;
   }
   
@@ -88,6 +90,7 @@ width: 20%;
 @media (min-width:1281px)
 {
  body {
+	 background:#FFFFFF;
 }
   
   #dlc_wrapper {
