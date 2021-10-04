@@ -23,7 +23,8 @@
   text-decoration: none;
   padding: 1em 2em;
   border: 1px solid #666;
-  margin: .5em 0;
+  margin: 11em 0;
+border-radius: 50%;
 }
 .btn:hover {
   background: #eaeaea;
@@ -39,7 +40,7 @@
 #dlc_showcase .bg-image {
   position: absolute;
 position: 0px;
-  background: url("https://www.persolkellyconsulting.com.hk/media/pcghk/client/dlc2022/img/DLCBannerd.jpg");
+  background: url("https://www.persolkellyconsulting.com.hk/media/pcghk/client/dlc2022/img/DLCBannerc.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
