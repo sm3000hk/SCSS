@@ -35,40 +35,62 @@ border-radius: 50%;
 
 	 /*Section4 Start*/
 
+#divFoodContainer,
+#Card-Contnr {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
 
-.sectionHeader {
-    padding-top: 70px;
+
+#Card-Contnr {
+    margin: 70px 100px;
+}
+
+.Card {
+    height: 350px;
+    width: 25%;
     text-align: center;
+    box-sizing: border-box;
+    background-color: #f5f6fb;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    padding: 40px;
+    margin-left: 30px;
 }
 
-
-.freshFoodText {
-    color: #91ac41;
-    font-size: 24px;
-    font-family: 'Caveat', cursive;
-    margin: 0;
-    margin-top: 35px;
+.Card-img {
+    border-radius: 50%;
+    Width: 80px;
 }
 
-
-.headingVeganStore {
-    font-family: 'Poppins', sans-serif;
-    font-size: 44px;
-    font-weight: 600;
-}
-
-
-.storeDescription {
-    font-size: 16px;
-    font-weight: 500;
-    color: #8b8b99;
+.Card-discrptn {
+    font-size: 14px;
     letter-spacing: 0.5px;
+    font-style: Italic;
+    color: #8b8b99;
+    height: 110px;
 }
 
-#storeDesc {
-    max-width: 600px;
-    margin: auto;
+.Card-auth {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0px;
 }
+
+ #Card-Contnr {
+        flex-direction: column;
+        margin: 20px 5px;
+}
+
+
+ .Card {
+        width: 95%;
+        display: block;
+        margin: 10px;
+    }
 
 
 
