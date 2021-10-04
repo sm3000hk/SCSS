@@ -8,7 +8,7 @@
 #dlc_cover {
 	  margin: 0px;
   Width: 100%;
-  height: 430px;
+  height: auto;
   border-bottom: 0px;
   background: url('https://www.persolkellyconsulting.com.hk/media/pcghk/client/dlc2022/img/DLCBannerb.jpg');
  /* background-repeat:no-repeat; */
@@ -21,7 +21,7 @@
 .dlc_profile-header-inner-overlay {
 position: absolute;
 width: 100%;
-height: 430px;
+height: auto;
 top: 60px;
 }
 
