@@ -31,11 +31,12 @@
 }
 
 /* Header */
-#showcase {
+#dlc_showcase {
+	min-height: 450px;
   color: #fff;
   text-align: center;
 }
-#showcase .bg-image {
+#dlc_showcase .bg-image {
   position: absolute;
   background: url("https://www.persolkellyconsulting.com.hk/media/pcghk/client/dlc2022/img/DLCBannerb.jpg");
   background-position: center;
@@ -45,11 +46,11 @@
   height: 400px;
   z-index: -1;
 }
-#showcase h1 {
+#dlc_showcase h1 {
   padding-top: 100px;
   padding-bottom: 0;
 }
-#showcase .content-wrap,
+#dlc_showcase .content-wrap,
 #section-a .content-wrap {
   padding: 0 1.5em;
 }
