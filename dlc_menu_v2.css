@@ -1,13 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
-body{
-  margin: 0px;
-  background: #E0E0E0;
-}
-#wrapper {
+
+#dlc_wrapper {
   overflow: hidden;
 }
-#cover {
+#dlc_cover {
   Width: 100%;
   height: 200px;
   border-bottom: solid 2px #838383;
@@ -19,7 +16,7 @@ body{
   background-size: cover;
 }
 
-.profile-header-inner-overlay {
+.dlc_profile-header-inner-overlay {
 position: absolute;
 width: 100%;
 height: 140px;
@@ -33,40 +30,36 @@ background: linear-gradient(to bottom,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 0.55) 100
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#66000000',GradientType=0);
 }
 
-#social {
+#dlc_social {
 width: 100%;
 height: 57px;
 background: #F8F8F8;
 }
 
-#info {
+#dlc_info {
 width: 90%;
 height: 90%;
 margin-right: auto;
 margin-left: auto;
   padding-top: 20px;
 }
-.headinfo {
+.dlc_headinfo {
 position: absolute;
 color: #FFF;
 font-family: arial;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
-.bio {
+.dlc_bio {
 top: 70px;
 }
-a {
-  link-decoration: none;
-  color:#444;
-  font-weight: bold;
-}
-#social a {
+
+#dlc_social a {
   link-decoration: none;
   color:#444;
   font-weight: normal;
 }
 
-#post {
+#dlc_post {
 background: #FFF;
 margin-top: 15px;
 margin-right: auto;
@@ -95,7 +88,7 @@ color:#0084B4;
 
 @media only screen and (max-width: 900px)
   {
-  #social {
+  #dlc_social {
 padding-left: 10%!important;
 }  
   li {
@@ -110,7 +103,7 @@ width: 20%;
 background: rgba(121, 121, 121, 0.65);
 }
   
-  #wrapper {
+  #dlc_wrapper {
 overflow: hidden;
 width: 80%;
 margin-right: auto;
@@ -118,7 +111,7 @@ margin-left: auto;
 background: #B3B3B3;
   }
   
-  .profile-header-inner-overlay {
+  .dlc_profile-header-inner-overlay {
 width: 80%;
   }
 }
