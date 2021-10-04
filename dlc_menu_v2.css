@@ -19,7 +19,7 @@
 .dlc_profile-header-inner-overlay {
 position: absolute;
 width: 100%;
-height: 140px;
+height: 430px;
 top: 60px;
 }
 
@@ -37,8 +37,6 @@ margin-left: auto;
 }
 .dlc_headinfo {
 position: absolute;
-color: #FFF;
-font-family: arial;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
 .dlc_bio {
@@ -65,15 +63,14 @@ height: 200px;
 list-style: none;
 text-align: center;
 float: left;
-width: 30%;
+width: 20%;
 line-height: 2;
 height: 35px;
-border: 1px solid #D6D6D6;
-padding: .625em .75em;
+border: 0px solid #D6D6D6;
 }
 
 .dlc_li:hover {
-background: #ECECEC;
+background: #FFB81C;
 color:#0084B4;
 }
 
