@@ -1,6 +1,4 @@
-
 #dlcbody {
-
   text-align: center;
 }
 #dlcbody img {
@@ -16,7 +14,6 @@
   margin: 0;
   padding: 1em 0;
 }
-
 /* Media Queries 
 
 .btn {
@@ -35,29 +32,22 @@ border-radius: 50%;
 }
 
 */
-
-
-
 /*New btn Start*/
-
 .button_container {
-	position: absolute;
+  position: absolute;
   left: 0;
   right: 0;
   top: 30%;
 }
-
 .description, .link {
   font-family: 'Amatic SC', cursive;
   text-align: center;
 }
-
 .description {
-	font-size: 35px;
+  font-size: 35px;
 }
-
 .btn {
-display: inline-block;
+  display: inline-block;
   border: none;
   display: block;
   text-align: center;
@@ -65,22 +55,21 @@ display: inline-block;
   text-transform: uppercase;
   outline: none;
   overflow: hidden;
-  position: relative;
+  position: absolute;
+	right:    0;
+bottom:   0;
   color: #fff;
   font-weight: 700;
   font-size: 15px;
   background-color: #222;
   padding: 12px 22px;
-	position: -190px 0px;
   margin: 0;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
 }
-
 .btn span {
-  position: relative; 
+  position: relative;
   z-index: 1;
 }
-
 .btn:after {
   content: "";
   position: absolute;
@@ -94,37 +83,28 @@ display: inline-block;
   -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
-
 .btn:hover:after {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
-
 .link {
   font-size: 20px;
   margin-top: 30px;
 }
-
 .link a {
   color: #000;
-  font-size: 25px; 
+  font-size: 25px;
 }
-
-
-
 /*New btn End*/
-
-
-
 /* Header */
 #dlc_showcase {
-	min-height: 450px;
+  min-height: 450px;
   color: #fff;
   text-align: center;
 }
 #dlc_showcase .bg-image {
   position: absolute;
-position: 0px;
+  position: 0px;
   background: url("https://www.persolkellyconsulting.com.hk/media/pcghk/client/dlc2022/img/DLCBannerc.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -137,18 +117,15 @@ position: 0px;
   padding-top: 100px;
   padding-bottom: 0;
 }
-#dlc_showcase .content-wrap,
-#section-a .content-wrap {
+#dlc_showcase .content-wrap, #section-a .content-wrap {
   padding: 0 1.5em;
 }
-
 /* Section A */
 #section-a {
   background: #eaeaea;
   color: #333;
   padding-bottom: 2em;
 }
-
 /* Section B */
 #section-b {
   padding: 2em 1em 1em;
@@ -166,14 +143,12 @@ position: 0px;
 .card-content {
   padding: 1.5em;
 }
-
 /* Section C */
 #section-c {
   background: #fff;
   color: #333;
   padding: 2em;
 }
-
 /* Section D */
 #section-d .box {
   padding: 2em;
@@ -182,7 +157,6 @@ position: 0px;
 #section-d .box:first-child {
   background: #2690d4;
 }
-
 /* Footer */
 #main-footer {
   padding: 2em;
@@ -194,9 +168,7 @@ position: 0px;
   color: #2690d4;
   text-decoration: none;
 }
-
 /* Media Queries */
-
 @media(min-width: 700px) {
   .grid {
     display: grid;
@@ -209,12 +181,10 @@ position: 0px;
   #section-a .content-text p {
     padding-top: 0;
   }
-  .content-wrap,
-  #section-b ul {
+  .content-wrap, #section-b ul {
     grid-column: 2/4;
   }
-  .box,
-  #main-footer div {
+  .box, #main-footer div {
     grid-column: span 2;
   }
   #section-b ul {
