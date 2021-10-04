@@ -21,13 +21,6 @@ position: absolute;
 width: 100%;
 height: 140px;
 top: 60px;
-background: -moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.55) 100%);
-background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0, 0, 0, 0)),color-stop(100%,rgba(0, 0, 0, 0.55)));
-background: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 0.55) 100%);
-background: -o-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.55) 100%);
-background: -ms-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.55) 100%);
-background: linear-gradient(to bottom,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 0.55) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#66000000',GradientType=0);
 }
 
 #dlc_social {
@@ -107,7 +100,6 @@ overflow: hidden;
 width: 80%;
 margin-right: auto;
 margin-left: auto;
-background: #B3B3B3;
   }
   
   .dlc_profile-header-inner-overlay {
