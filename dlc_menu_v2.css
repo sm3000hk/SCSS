@@ -1,615 +1,156 @@
+/*
+
+Made following Traversy Media tutorial "Grid CSS Responsive Website Layout - 'Mobile First' Design"
+> https://www.youtube.com/watch?v=M3qBpPw77qo
+
+> https://www.youtube.com/user/TechGuyWeb
+> https://www.traversymedia.com/
+
+*/
+
+/* Core Styles */
 body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background: #333;
+  color: #fff;
+  font-size: 1em;
+  line-height: 1.5;
+  text-align: center;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+h1, h2, h3 {
+  margin: 0;
+  padding: 1em 0;
+}
+p {
+  margin: 0;
+  padding: 1em 0;
+}
+.btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #666;
+  margin: .5em 0;
+}
+.btn:hover {
+  background: #eaeaea;
+  color: #333;
 }
 
-#topBar {
+/* Header */
+#showcase {
+  min-height: 450px;
+  color: #fff;
+  text-align: center;
+}
+#showcase .bg-image {
+  position: absolute;
+  background: #333 url("https://s26.postimg.cc/k1hunuvsp/nastuh-abootalebi-284877.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  z-index: -1;
+  opacity: 0.5;
+}
+#showcase h1 {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+#showcase .content-wrap,
+#section-a .content-wrap {
+  padding: 0 1.5em;
+}
+
+/* Section A */
+#section-a {
+  background: #eaeaea;
+  color: #333;
+  padding-bottom: 2em;
+}
+
+/* Section B */
+#section-b {
+  padding: 2em 1em 1em;
+}
+#section-b ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#section-b li {
+  margin-bottom: 1em;
+  background: #fff;
+  color: #333;
+}
+.card-content {
+  padding: 1.5em;
+}
+
+/* Section C */
+#section-c {
+  background: #fff;
+  color: #333;
+  padding: 2em;
+}
+
+/* Section D */
+#section-d .box {
+  padding: 2em;
+  color: #fff;
+}
+#section-d .box:first-child {
+  background: #2690d4;
+}
+
+/* Footer */
+#main-footer {
+  padding: 2em;
+  background: #111;
+  color: #fff;
+  text-align: center;
+}
+#main-footer a {
+  color: #2690d4;
+  text-decoration: none;
+}
+
+/* Media Queries */
+
+@media(min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+  }
+  #section-a .content-text {
+    columns: 2;
+    column-gap: 2em;
+  }
+  #section-a .content-text p {
+    padding-top: 0;
+  }
+  .content-wrap,
+  #section-b ul {
+    grid-column: 2/4;
+  }
+  .box,
+  #main-footer div {
+    grid-column: span 2;
+  }
+  #section-b ul {
     display: flex;
-    justify-content: space-between;
-    padding: 16px 24px;
-    padding: sticky;
-}
-
-#imgLogo {
-    width: 40px;
-    height: 40px;
-}
-
-#DDL:hover #DDL-List {
-    display: block;
-}
-
-#DDL-List {
-    position: absolute;
-    border-top: 2px solid rgb(170, 210, 54);
-    background-color: white;
-    box-shadow: 0 2px 5px #ccc;
-    display: none;
-}
-
-.DDLItem {
-    display: block;
-    border-bottom: 1px solid #aaa;
-    margin: 8px;
-    padding: 10px;
-}
-
-.DDLItem:last-of-type {
-    border-bottom: none;
-}
-
-.menu-item {
-    display: inline-block;
-    list-style-type: none;
-    color: black;
-    font-weight: 600;
-    font-size: 14px;
-    cursor: pointer;
-    margin-left: 16px;
-}
-
-.menu-item .fa {
-    font-size: 15px;
-}
-
-#btnBuyNow {
-    font-size: 12px;
-    font-weight: 600;
-    color: white;
-    background-color: rgb(170, 210, 54);
-    padding: 9px 34px;
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
-    margin-top: -30px;
-}
-
-#imgLanding {
-    width: 100%;
-}
-
-#landingSection {
-    height: 550px;
-}
-
-#divHeading {
-    font-family: 'Poppins', sans-serif;
-    font-size: 44px;
-    font-weight: 600;
-    letter-spacing: 8.8px;
-    line-height: 1.2;
-    position: absolute;
-    top: 250px;
-    width: 900px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-}
-
-#divDescription {
-    font-family: 'Poppins', sans-serif;
-    font-feature-settings: 14px;
-    letter-spacing: 0.5px;
-    font-weight: 400;
-    color: #8b8b99;
-    position: absolute;
-    top: 400px;
-    width: 1110px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-}
-
-#Section2,
-#Feedback-Sec {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: stretch;
-}
-
-.Scale {
-    height: 550px;
-    width: 25%;
-    padding: 100px 48px;
-    color: white;
-    text-align: center;
-    box-sizing: border-box;
-}
-
-#item1 {
-    background-color: #5acda6;
-}
-
-#item2 {
-    background-color: #91ac41;
-}
-
-#item3 {
-    background-color: #e4b476;
-}
-
-#item4 {
-    background-color: #5acda6;
-}
-
-#Section2 .fa {
-    font-size: 96px;
-    color: white;
-}
-
-.items {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    color: white;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
-.items-descrp {
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    letter-spacing: 0.5px;
-    line-height: 1.6;
-    color: white;
-}
-
-.Scale:hover .fa {
-    transform: scale(1.5);
-}
-#Section3 {
-    background-color: #f7eee2;
-    width: 100%;
-}
-
-.sectionHeader {
-    padding-top: 70px;
-    text-align: center;
-}
-
-#divFoodContainer,
-#Card-Contnr {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: stretch;
-}
-
-.divFood {
-    height: 500px;
-    width: 25%;
-    padding: 100px 48px;
-    text-align: center;
-    box-sizing: border-box;
-}
-
-#Section3 .fa {
-    background-color: #e3b375;
-    font-size: 60px;
-    color: white;
-    padding: 48px;
-    border-radius: 80px;
-}
-
-#Section3 .fa:hover {
-    transform: scale(1.1);
-}
-
-.foodHeading {
-    margin-top: 30px;
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.foodDescription {
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    color: #8b8b99;
-}
-
-.freshFoodText {
-    color: #91ac41;
-    font-size: 24px;
-    font-family: 'Caveat', cursive;
-    margin: 0;
-    margin-top: 35px;
-}
-
-.headingVeganStore {
-    font-family: 'Poppins', sans-serif;
-    font-size: 44px;
-    font-weight: 600;
-}
-
-.storeDescription {
-    font-size: 16px;
-    font-weight: 500;
-    color: #8b8b99;
-    letter-spacing: 0.5px;
-}
-
-#storeDesc {
-    max-width: 600px;
-    margin: auto;
-}
-#Card-Contnr {
-    margin: 70px 100px;
-}
-
-.Card {
-    height: 350px;
-    width: 25%;
-    text-align: center;
-    box-sizing: border-box;
-    background-color: #f5f6fb;
-    border-top-left-radius: 45px;
-    border-bottom-left-radius: 45px;
-    border-bottom-right-radius: 45px;
-    padding: 40px;
-    margin-left: 30px;
-}
-
-.Card-img {
-    border-radius: 50%;
-    Width: 80px;
-}
-
-.Card-discrptn {
-    font-size: 14px;
-    letter-spacing: 0.5px;
-    font-style: Italic;
-    color: #8b8b99;
-    height: 110px;
-}
-
-.Card-auth {
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 0px;
-}
-
-.Sub-auth {
-    margin-top: 5px;
-    font-size: 12px;
-    color: #8b8b99;
-    font-style: Italic;
-}
-
-
-#Section5 {
-    width: 100%;
-    height: 550px;
-}
-
-#Strwbry-img {
-    width: 65%;
-    display: inline-block;
-    height: 550px;
-}
-
-#img-camp {
-    width: 100%;
-    height: 550px;
-}
-
-#Followus-div {
-    display: inline-block;
-    width: 33%;
-    vertical-align: top;
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/demoapi-43d03.appspot.com/o/strawberry-white.png?alt=media');
-    background-repeat: no-repeat;
-    padding: 100px;
-    box-sizing: border-box;
-    background-size: cover;
-    height: 600px;
-}
-
-#Email {
-    margin-top: 20px;
-    background-color: white;
-    padding: 16px;
-    width: 150px;
-    border: 1px solid white;
-    border-radius: 2px;
-}
-
-#Sub-btn {
-    background-color: #f69dad;
-    padding: 16px 32px;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    margin-bottom: 0px;
-}
-
-#Followus-title {
-    font-size: 44px;
-    font-weight: bold;
-    margin-top: -10px;
-    font-family: 'Poppins', sans-serif;
-}
-
-#FollowUs-desc {
-    font-size: 18px;
-    color: #aaa;
-}
-
-#Sub-btn:hover {
-    border: 1px solid #f69dad;
-    color: #f69dad;
-    background-color: white;
-}
-
-#Feedback-Sec {
-    background-color: #f6fcfa;
-    font-family: 'Poppins', sans-serif;
-}
-
-.feedback-detail {
-    width: 25%;
-    padding: 100px 48px;
-    text-align: center;
-    box-sizing: border-box;
-}
-
-.feedback-detail div {
-    font-weight: bold;
-    font-size: 32px;
-}
-
-.feedback-detail p {
-    font-style: italic;
-    font-size: 14px;
-    color: #57e3b5;
-}
-
-#Section7 {
-    text-align: center;
-}
-
-#video-title {
-    color: #8b8b99;
-    font-size: 44px;
-    font-weight: 400;
-    margin-top: 45px;
-    margin-bottom: 45px;
-}
-
-#blank-line {
-    background-color: #e4b476;
-    width: 100px;
-    margin-bottom: 30px;
-}
-
-video {
-    margin-bottom: 80px;
-}
-
-/* Code for Section-8 */
-#Section8 {
-    width: 100%;
-    height: 700px;
-    display: flex;
-}
-
-#Address-section {
-    margin-top: -10px;
-    width: 45%;
-    text-align: left;
-}
-
-#Signup-Section {
-    margin-top: -10px;
-    width: 45%;
-    text-align: right;
-    vertical-align: top;
-    padding-left: 100px;
-}
-
-.Cntact-info {
-    color: #91ac41;
-    font-size: 24px;
-    font-family: 'Caveat', cursive;
-    margin: 0px;
-    margin-top: 35px;
-    text-align: left;
-    padding-left: 80px;
-}
-
-.contact-heading {
-    font-size: 44px;
-    font-weight: 600;
-    text-align: left;
-    padding-left: 80px;
-}
-
-.contact-descp {
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-    Color: #8b8b99;
-    text-align: left;
-    padding-left: 80px;
-}
-
-.Address-title {
-    font-size: 24px;
-    font-weight: 600;
-    padding-top: 60px;
-    padding-left: 80px;
-}
-
-.Address-desc {
-    font-size: 14px;
-    letter-spacing: 1.5px;
-    Color: #8b8b99;
-    width: 270px;
-    padding-left: 80px;
-}
-
-.Signup-info {
-    color: #91ac41;
-    font-size: 24px;
-    font-family: 'Caveat', cursive;
-    margin: 0px;
-    margin-top: 35px;
-    text-align: left;
-    padding-left: 25;
-}
-
-.Signup-heading {
-    font-size: 44px;
-    font-weight: 600;
-    text-align: left;
-    padding-left: 25;
-}
-
-.Signup-descp {
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-    Color: #8b8b99;
-    text-align: left;
-    padding-left: 25;
-}
-
-#Signup-field {
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-left: 25;
-    padding-right: 88px;
-    width: 70px;
-}
-
-.Signup-item {
-    font-size: 18px;
-    padding-bottom: 7px;
-    margin-bottom: 16px;
-    border-color: 1px solid grey;
-    display: block;
-    width: 400px;
-    height: 50px;
-    padding-left: 10px;
-}
-
-#message {
-    height: 60px;
-    padding-top: none;
-    color: #8b8b99;
-
-}
-
-#Submit {
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-    background-color: rgb(170, 210, 54);
-    padding: 9px 34px;
-    border-radius: 4px;
-    border: none;
-    height: 50px;
-}
-
-
-/* Code End for Section-8 */
-
-#divFooter {
-    background-color: #232323;
-    text-align: center;
-    padding: 48px;
-    color: white;
-}
-
-@media screen and (max-width:720px) {
-
-    .menu-link {
-        display: none;
-    }
-
-    #imgLanding {
-        height: 550px;
-    }
-
-    #divHeading {
-        font-size: 24px;
-        letter-spacing: 2.8px;
-        width: 400px;
-    }
-
-    #divDescription {
-        font-size: 12px;
-        letter-spacing: 0.2px;
-        width: 400px;
-    }
-
-    .Scale,
-    .feedback-detail,
-    .divFood,
-    .feedback-detail,
-    .Followus {
-        width: 100%;
-        display: block;
-    }
-
-    #Section2,
-    #Section3 #divFoodContainer,
-    #Section5, #Feedback-Sec,#Section8 {
-        flex-direction: column;
-    }
-
-    #Feedback-Sec{
-        margin-top: 550px;
-    }
-
-    #Card-Contnr {
-        flex-direction: column;
-        margin: 20px 5px;
-    }
-
-    .divFood {
-        height: 350px;
-        padding: 50px;
-    }
-
-    .Card {
-        width: 95%;
-        display: block;
-        margin: 10px;
-    }
-
-    video {
-        width: 100%;
-    }
-
-    #Strwbry-img {
-        width: 100%;
-        height: 550px;
-        display: block;
-    }
-
-    #Followus-div {
-        width: 100%;
-        height: 550px;
-        display: block;
-        padding:10px;
-        position: relative;
-    }
-
-    #Address-section {
-        width: 100%;
-        display: block;
-        height: 700px;
-    }
-    
-    #Signup-Section {
-        width: 100%;
-        display: block;
-        height: 700px;
-    }
-
-   #divFooter{
-       margin-top: 700px;
-   } 
+    justify-content: space-around;
+  }
+  #section-b li {
+    width: 31%;
+  }
 }
