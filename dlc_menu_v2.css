@@ -111,7 +111,7 @@
   text-decoration: none;
 }
 
-/* Media Queries */
+/* 
 
 @media(min-width: 700px) {
   .grid {
@@ -141,3 +141,5 @@
     width: 31%;
   }
 }
+
+Media Queries */
