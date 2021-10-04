@@ -43,6 +43,9 @@ border-radius: 50%;
     justify-content: stretch;
 }
 
+#divFoodContainer{
+        flex-direction: column;
+    }
 
 #Card-Contnr {
     margin: 70px 100px;
