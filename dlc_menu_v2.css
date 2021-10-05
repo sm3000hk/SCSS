@@ -103,7 +103,6 @@ border-radius: 50%;
 /*New btn Start*/
 
 
-
 .button_container {
   position: absolute;
   left: 0;
@@ -275,4 +274,95 @@ border-radius: 50%;
   #section-b li {
     width: 31%;
   }
+}
+
+
+
+
+/* Block */
+
+    #imgLanding {
+        height: 550px;
+    }
+
+    #divHeading {
+        font-size: 24px;
+        letter-spacing: 2.8px;
+        width: 400px;
+    }
+
+    #divDescription {
+        font-size: 12px;
+        letter-spacing: 0.2px;
+        width: 400px;
+    }
+
+    .Scale,
+    .feedback-detail,
+    .divFood,
+    .feedback-detail,
+    .Followus {
+        width: 100%;
+        display: block;
+    }
+
+    #Section2,
+    #Section3 #divFoodContainer,
+    #Section5, #Feedback-Sec,#Section8 {
+        flex-direction: column;
+    }
+
+    #Feedback-Sec{
+        margin-top: 550px;
+    }
+
+    #Card-Contnr {
+        flex-direction: column;
+        margin: 20px 5px;
+    }
+
+    .divFood {
+        height: 350px;
+        padding: 50px;
+    }
+
+    .Card {
+        width: 95%;
+        display: block;
+        margin: 10px;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    #Strwbry-img {
+        width: 100%;
+        height: 550px;
+        display: block;
+    }
+
+    #Followus-div {
+        width: 100%;
+        height: 550px;
+        display: block;
+        padding:10px;
+        position: relative;
+    }
+
+    #Address-section {
+        width: 100%;
+        display: block;
+        height: 700px;
+    }
+    
+    #Signup-Section {
+        width: 100%;
+        display: block;
+        height: 700px;
+    }
+
+   #divFooter{
+       margin-top: 700px;
+   } 
 }
