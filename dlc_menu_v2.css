@@ -226,7 +226,7 @@ border-radius: 50%;
   color: #fff;
 }
 #section-d .box:first-child {
-  background: #2690d4;
+  background: #FFF;
 }
 
 
@@ -253,19 +253,19 @@ border-radius: 50%;
 }
 
 #section-shan1 .box:first-child {
-  background: #2690d4;
+  background: #FFF;
 }
 
 #section-shan2 .box:first-child {
-  background: #2690d4;
+  background: #FFF;
 }
 
 #section-shan3 .box:first-child {
-  background: #2690d4;
+  background: #FFF;
 }
 
 #section-shan4 .box:first-child {
-  background: #2690d4;
+  background: #FFF;
 }
 
 
@@ -285,7 +285,7 @@ border-radius: 50%;
   text-align: center;
 }
 #main-footer a {
-  color: #2690d4;
+  color: #FFF;
   text-decoration: none;
 }
 /* Media Queries */
