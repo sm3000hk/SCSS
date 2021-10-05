@@ -118,7 +118,6 @@ border-radius: 50%;
 }
 .btn {
   display: inline-block;
-	
   border: none;
   text-align: center;
   cursor: pointer;
@@ -218,9 +217,7 @@ border-radius: 50%;
 }
 .nlbtn {
   display: inline-block;
-	
   border: none;
-
   text-align: center;
   cursor: pointer;
   text-transform: uppercase;
@@ -233,7 +230,7 @@ border-radius: 50%;
   font-weight: 700;
   font-size: 15px;
   background-color: #222;
-  padding: 12px 22px;
+  padding: 12px 54px;
   margin: 0;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
 }
