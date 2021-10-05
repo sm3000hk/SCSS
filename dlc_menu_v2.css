@@ -254,6 +254,13 @@ border-radius: 50%;
   color: #fff;
   text-align: center;
 }
+#joinus {
+  min-height: 80px;
+  color: #fff;
+  text-align: center;
+}
+
+
 #dlc_showcase .bg-image {
   position: absolute;
   position: 0px;
