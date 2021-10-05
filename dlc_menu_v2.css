@@ -183,14 +183,13 @@ border-radius: 50%;
   text-transform: uppercase;
   outline: none;
   overflow: hidden;
-  position: relative;
 	bottom: -320px;
 	left: 40%;
 	right:50%;
   color: #fff;
   font-weight: 700;
   font-size: 15px;
-  background-color: #222;
+  background-color: #53565A;
   padding: 12px 22px;
   margin: 0;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
@@ -198,23 +197,6 @@ border-radius: 50%;
 .c1btn span {
   position: relative;
   z-index: 1;
-}
-.c1btn:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 490%;
-  width: 140%;
-  background: #FFB81C;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
-  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
-  transform: translateX(-98%) translateY(-25%) rotate(45deg);
-}
-.c1btn:hover:after {
-  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
-  transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
 /*New btn End*/
