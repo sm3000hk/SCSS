@@ -32,77 +32,58 @@ border-radius: 50%;
 }
 
 */
-
-	 /*Section4 Start*/
-
-#divFoodContainer,
-#Card-Contnr {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: stretch;
+/*Section4 Start*/
+#divFoodContainer, #Card-Contnr {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
 }
-
-#divFoodContainer{
-        flex-direction: column;
-    }
-
-#Card-Contnr {
-    margin: 70px 100px;
+#divFoodContainer {
+  flex-direction: column;
 }
-
+#Card-Contnr {
+  margin: 70px 100px;
+}
 .Card {
-    height: 350px;
-    width: 25%;
-    text-align: center;
-    box-sizing: border-box;
-    background-color: #f5f6fb;
-    border-top-left-radius: 45px;
-    border-bottom-left-radius: 45px;
-    border-bottom-right-radius: 45px;
-    padding: 40px;
-    margin-left: 30px;
+  height: 350px;
+  width: 25%;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #f5f6fb;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  padding: 40px;
+  margin-left: 30px;
 }
-
 .Card-img {
-    border-radius: 50%;
-    Width: 80px;
+  border-radius: 50%;
+  Width: 80px;
 }
-
 .Card-discrptn {
-    font-size: 14px;
-    letter-spacing: 0.5px;
-    font-style: Italic;
-    color: #8b8b99;
-    height: 110px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-style: Italic;
+  color: #8b8b99;
+  height: 110px;
 }
-
 .Card-auth {
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0px;
 }
-
- #Card-Contnr {
-        flex-direction: column;
-        margin: 20px 5px;
+#Card-Contnr {
+  flex-direction: column;
+  margin: 20px 5px;
 }
-
-
- .Card {
-        width: 95%;
-        display: block;
-        margin: 10px;
-    }
-
-
-
-
-	  /*Section4 End*/
-
+.Card {
+  width: 95%;
+  display: block;
+  margin: 10px;
+}
+/*Section4 End*/
 /*New btn Start*/
-
-
 .button_container {
   position: absolute;
   left: 0;
@@ -125,9 +106,9 @@ border-radius: 50%;
   outline: none;
   overflow: hidden;
   position: relative;
-	bottom: -320px;
-	left: auto;
-	right:auto;
+  bottom: -320px;
+  left: auto;
+  right: auto;
   color: #fff;
   font-weight: 700;
   font-size: 15px;
@@ -166,14 +147,9 @@ border-radius: 50%;
   font-size: 25px;
 }
 /*New btn End*/
-
-
-
 /*New btn Start*/
-
 .c1btn {
   display: inline-block;
-	
   border: none;
   display: block;
   text-align: center;
@@ -181,27 +157,22 @@ border-radius: 50%;
   text-transform: uppercase;
   outline: none;
   overflow: hidden;
-	bottom: -320px;
-	left: 40%;
-	right:50%;
+  bottom: -320px;
+  left: 40%;
+  right: 50%;
   color: #fff;
   font-weight: 700;
   font-size: 10px;
   background-color: #53565A;
   padding: 10px 10px;
   margin: 5px 0px 0px 0px;
- 
 }
 .c1btn span {
   position: relative;
   z-index: 1;
 }
-
 /*New btn End*/
-
 /*New btn Start*/
-
-
 .nlbutton_container {
   position: absolute;
   left: 0;
@@ -224,8 +195,8 @@ border-radius: 50%;
   outline: none;
   overflow: hidden;
   position: relative;
-	left: auto;
-	right:auto;
+  left: auto;
+  right: auto;
   color: #fff;
   font-weight: 700;
   font-size: 15px;
@@ -247,7 +218,6 @@ border-radius: 50%;
   font-size: 25px;
 }
 /*New btn End*/
-
 /* Header */
 #dlc_showcase {
   min-height: 450px;
@@ -259,8 +229,6 @@ border-radius: 50%;
   color: #fff;
   text-align: center;
 }
-
-
 #dlc_showcase .bg-image {
   position: absolute;
   position: 0px;
@@ -315,55 +283,39 @@ border-radius: 50%;
 #section-d .box:first-child {
   background: #FFF;
 }
-
-
-
-
 #section-shan1 .box {
   padding: 2em;
   color: #53565A;
 }
-
 #section-shan2 .box {
   padding: 2em;
   color: #53565A;
 }
-
 #section-shan3 .box {
   padding: 2em;
   color: #53565A;
 }
-
 #section-shan4 .box {
   padding: 2em;
   color: #53565A;
 }
-
 #section-shan1 .box:first-child {
   background: #FFF;
 }
-
 #section-shan2 .box:first-child {
   background: #FFF;
 }
-
 #section-shan3 .box:first-child {
   background: #FFF;
 }
-
 #section-shan4 .box:first-child {
   background: #FFF;
 }
-
-
-
 /* Section E */
 #section-e .box {
   padding: 2em;
   color: #fff;
 }
-
-
 /* Footer */
 #main-footer {
   padding: 2em;
@@ -402,9 +354,6 @@ border-radius: 50%;
     width: 31%;
   }
 }
-
-
-
 /* Shan_number */
 /* Section B */
 #section-n1 {
@@ -420,13 +369,15 @@ border-radius: 50%;
   background: #fff;
   color: #333;
 }
-  #section-n1 ul {
-    display: flex;
-    justify-content: space-around;
-  }
-  #section-n1 li {
-    width: 31%;
-  }
+#section-n1 ul {
+  display: flex;
+  justify-content: space-around;
+}
+#section-n1 li {
+  width: 31%;
+}
+
+
 
 
 
@@ -437,16 +388,14 @@ border-radius: 50%;
   border: 4px solid black;
   box-shadow: 4px 4px 0 black;
   width: 350px;
-  
-  position: fixed;
+  position: absolute;
   transform: scale(0);
   transition: transform .3s ease-in;
+  z-index: 10;
 }
-
 .lightbox:target {
   transform: scale(1);
 }
-
 .close-me::after {
   content: "\00D7";
   display: inline-block;
