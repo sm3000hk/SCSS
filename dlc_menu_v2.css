@@ -427,3 +427,47 @@ border-radius: 50%;
   #section-n1 li {
     width: 31%;
   }
+
+
+
+
+.lightbox {
+  background: white;
+  padding: 1.5rem;
+  border: 4px solid black;
+  box-shadow: 4px 4px 0 black;
+  width: 350px;
+  
+  position: fixed;
+  transform: scale(0);
+  transition: transform .3s ease-in;
+}
+
+.lightbox:target {
+  transform: scale(1);
+}
+
+.close-me::after {
+  content: "\00D7";
+  display: inline-block;
+  position: absolute;
+  right: -1rem;
+  top: -1rem;
+  z-index: 3;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0;
+  background-color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+
+
