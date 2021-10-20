@@ -434,8 +434,8 @@ border-radius: 50%;
 
 .course-preview {
   box-sizing: border-box;
-  width: 30px;
-  padding: 50px;
+  width: 100%;
+  padding: 10px;
   background-color: #ffb81C;
 }
 
