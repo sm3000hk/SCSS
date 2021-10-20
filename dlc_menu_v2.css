@@ -434,9 +434,9 @@ border-radius: 50%;
 
 .course-preview {
   box-sizing: border-box;
-  width: 300px;
+  width: 30px;
   padding: 50px;
-  background-color: #fade96;
+  background-color: #ffb81C;
 }
 
 .course-info {
