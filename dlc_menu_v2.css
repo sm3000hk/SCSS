@@ -460,7 +460,7 @@ border-radius: 50%;
 
 .course-preview {
   box-sizing: border-box;
-  width: 100%;
+  width: 90%;
   padding: 10px;
   background-color: #ffb81C;
 }
