@@ -461,14 +461,14 @@ border-radius: 50%;
 .course-preview {
   box-sizing: border-box;
   width: 90%;
-  padding: 10px;
+  padding: 20px;
   background-color: #ffb81C;
 }
 
 .course-info {
   box-sizing: border-box;
   width: 90%;
-min-width: 380px;
+min-width: 400px;
   padding: 5px;
 }
 
