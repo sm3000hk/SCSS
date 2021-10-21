@@ -467,9 +467,9 @@ border-radius: 50%;
 
 .course-info {
   box-sizing: border-box;
-  width: 80%;
-min-width: 440px;
-  padding: 40px 20px;
+  width: 90%;
+min-width: 380px;
+  padding: 5px;
 }
 
 
