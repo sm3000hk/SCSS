@@ -642,6 +642,7 @@ pre code {
   -ms-flex-positive: 1;
   flex-grow: 1;
   max-width: 100%;
+  padding-top: 30px;
 }
 
 .row-cols-1 > * {
