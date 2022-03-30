@@ -4252,6 +4252,7 @@ input[type="button"].btn-block {
 
 .nav-tabs {
   border-bottom: 1px solid #dee2e6;
+	margin-bottom: 30px;
 }
 
 .nav-tabs .nav-item {
