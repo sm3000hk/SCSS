@@ -2565,13 +2565,15 @@ fieldset:disabled a.btn {
 .btn-primary:hover {
   color: #fff;
   background-color: #0069d9;
-  border-color: #0062cc;
+  border-color: #0069d9;
+ border-radius: 45px;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
   background-color: #0069d9;
-  border-color: #0062cc;
+  border-color: #0069d9;
+ border-radius: 45px;
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
@@ -10313,40 +10315,3 @@ a.text-dark:hover, a.text-dark:focus {
 .service-section .tab-image-ex-gap{
 	padding-top: 50px;
 }
-
-
-
-/* LFHBTN */
-
-a.arb {
-  text-decoration: none;
-  display: inline-block;
-  max-width: 100%;
-  background: rgba(255,165,0,1);
-  font-family: 'Roboto', Arial, sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #ffffff;
-  padding: 1em 2em;
-  margin-top: 1.5em;
-  transition: 0.5s background;
-  border-radius: 1em;
-}
-
-a.arb:hover {
-  background: #333;
-}
-
-a.arb .fa {
-  vertical-align: middle;
-  margin-left: 0.5em;
-}
-
-@media all and (max-width: 480px) {
-a.arb {
-  margin: 1em;
-  display: block;
-  font-size: 14px;
-  text-align: center;
-} }
