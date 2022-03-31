@@ -10315,60 +10315,37 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 
+
 /* From cssbuttons.io by @alexmaracinaru */
-.cta {
- position: relative;
- margin: auto;
- padding: 12px 18px;
- transition: all 0.2s ease;
- border: none;
- background: none;
-}
-
-.cta:before {
- content: "";
- position: absolute;
- top: 0;
- left: 0;
- display: block;
- border-radius: 50px;
- background: #b1dae7;
- width: 45px;
- height: 45px;
- transition: all 0.3s ease;
-}
-
-.cta span {
- position: relative;
- font-family: "Ubuntu", sans-serif;
- font-size: 18px;
+button {
+ cursor: pointer;
  font-weight: 700;
- letter-spacing: 0.05em;
- color: #234567;
+ font-family: Helvetica,"sans-serif";
+ transition: all .2s;
+ padding: 10px 20px;
+ border-radius: 100px;
+ background: #cfef00;
+ border: 1px solid transparent;
+ display: flex;
+ align-items: center;
+ font-size: 15px;
 }
 
-.cta svg {
- position: relative;
- top: 0;
+button:hover {
+ background: #a6c900;
+}
+
+button > svg {
+ width: 34px;
  margin-left: 10px;
- fill: none;
- stroke-linecap: round;
- stroke-linejoin: round;
- stroke: #234567;
- stroke-width: 2;
- transform: translateX(-5px);
- transition: all 0.3s ease;
+ transition: transform .3s ease-in-out;
 }
 
-.cta:hover:before {
- width: 100%;
- background: #b1dae7;
+button:hover svg {
+ transform: translateX(5px);
 }
 
-.cta:hover svg {
- transform: translateX(0);
-}
-
-.cta:active {
+button:active {
  transform: scale(0.95);
 }
+
