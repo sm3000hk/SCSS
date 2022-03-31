@@ -10316,36 +10316,37 @@ a.text-dark:hover, a.text-dark:focus {
 
 
 
-/* From cssbuttons.io by @alexmaracinaru */
-button {
- cursor: pointer;
- font-weight: 700;
- font-family: Helvetica,"sans-serif";
- transition: all .2s;
- padding: 10px 20px;
- border-radius: 100px;
- background: #cfef00;
- border: 1px solid transparent;
- display: flex;
- align-items: center;
- font-size: 15px;
+/* LFHBTN */
+
+a.arb {
+  text-decoration: none;
+  display: inline-block;
+  max-width: 100%;
+  background: rgba(255,165,0,1);
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 1em 2em;
+  margin-top: 1.5em;
+  transition: 0.5s background;
+  border-radius: 1em;
 }
 
-button:hover {
- background: #a6c900;
+a.arb:hover {
+  background: #333;
 }
 
-button > svg {
- width: 34px;
- margin-left: 10px;
- transition: transform .3s ease-in-out;
+a.arb .fa {
+  vertical-align: middle;
+  margin-left: 0.5em;
 }
 
-button:hover svg {
- transform: translateX(5px);
-}
-
-button:active {
- transform: scale(0.95);
-}
-
+@media all and (max-width: 480px) {
+a.arb {
+  margin: 1em;
+  display: block;
+  font-size: 14px;
+  text-align: center;
+} }
