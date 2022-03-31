@@ -2515,6 +2515,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
+	border-radius: 30px;
   color: #212529;
   text-align: center;
   vertical-align: middle;
@@ -2535,12 +2536,14 @@ textarea.form-control {
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
+	  	border-radius: 30px;
   }
 }
 
 .btn:hover {
   color: #F16D58;
   text-decoration: none;
+		border-radius: 30px;
 }
 
 .btn:focus, .btn.focus {
@@ -2555,12 +2558,13 @@ textarea.form-control {
 a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none;
+		border-radius: 30px;
 }
 
 .btn-primary {
   color: #fff;
   background-color: #F16D58;
-	 border-radius: 45px;
+
 }
 
 .btn-primary:hover {
