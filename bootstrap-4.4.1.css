@@ -5243,16 +5243,17 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .jumbotron {
-	background: url("https://www.persolkellyconsulting.com.hk/media/pcghk/client/LFH2022/LFH2022_kv_v1a.jpg") no-repeat center center; 
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: cover;
+
+
+	width: 100%;
+  height: 500px;
+  background-image: url("https://www.persolkellyconsulting.com.hk/media/pcghk/client/LFH2022/LFH2022_kv_v1a.jpg");
+  background-position: center center;
+  background-size: cover;
+	background-repeat: no-repeat
+}
 	
-  padding: 2rem 1rem;
-  margin-bottom: 2rem;
-  background-color: #e9ecef;
-  border-radius: 0.3rem;
+	
 }
 
 @media (min-width: 576px) {
