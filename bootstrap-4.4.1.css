@@ -5250,12 +5250,9 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .jumbotronbanner {
 
-
-  width: 100%;
-  height: auto;
   background-position: center center;
   background-size: cover;
-	background-repeat: no-repeat
+  background-repeat: no-repeat
 }
 	
 }
