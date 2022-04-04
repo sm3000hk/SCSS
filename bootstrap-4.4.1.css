@@ -5240,12 +5240,12 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
 
 
-  width: 100%;
+  max-width: 100%;
+	height: auto;
   background-position: center center;
   background-size: cover;
 	background-repeat: no-repeat;
 	padding: 4rem 2rem;
-	min-width: 576px;
 
 }
 	
