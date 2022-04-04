@@ -5244,26 +5244,18 @@ a.badge-dark:focus, a.badge-dark.focus {
   height: auto;
   background-position: center center;
   background-size: cover;
-	background-repeat: no-repeat
+	background-repeat: no-repeat;
+		padding: 4rem 2rem;
 }
 	
 
-.jumbotronbanner {
-
-  width: 100%;
-  height: auto;
-  background-position: center center;
-  background-size: cover;
-	background-repeat: no-repeat
-}
-	
-
-@media (min-width: 576px) {
+/*--@media (min-width: 576px) {
   .jumbotron {
     padding: 4rem 2rem;
   }
 }
 
+--*/
 
 
 @media (min-width: 576px) {
