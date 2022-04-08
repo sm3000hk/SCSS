@@ -10269,7 +10269,7 @@ a.text-dark:hover, a.text-dark:focus {
 	background-color: transparent;
 	border-width: 5px 0 0 0;
 	border-style: solid;
-	border-color: #ed145b;
+	border-color: #F16D58;
 }
 .service-section .service-tab li a i{
 	width: 67px;
@@ -10286,7 +10286,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .service-section .service-tab li.active a i, .service-section .service-tab li a:hover i{
 	background-color: #fff200;
-	color: #131720;
+	color: #F16D58;
+	font-weight: 700
 }
 .service-section .service-tab li a h5{
 	color: #b4bccf;
