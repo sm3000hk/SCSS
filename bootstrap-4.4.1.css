@@ -10320,6 +10320,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 
+ .grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+  }
+
+
 #lfh_showcase {
   min-height: 450px;
   color: #fff;
