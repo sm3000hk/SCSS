@@ -10318,3 +10318,18 @@ a.text-dark:hover, a.text-dark:focus {
 .service-section .tab-image-ex-gap{
 	padding-top: 50px;
 }
+
+
+
+#lfh_showcase .bg-image {
+  position: absolute;
+  position: 0px;
+  background: url("https://www.persolkellyconsulting.com.hk/media/pcghk/client/LFH2022/LFH2022_kv_v1c.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  z-index: -1;
+}
+
