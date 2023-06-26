@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+* {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+td {
+    vertical-align: top;
+    mso-table-lspace: 0pt !important;
+    mso-table-rspace: 0pt !important;
+}
+a {
+    text-decoration: none;
+}
+img {
+    -ms-interpolation-mode:bicubic;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+    u ~ div .email-container {
+        min-width: 320px !important;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+    u ~ div .email-container {
+        min-width: 375px !important;
+    }
+}
+@media only screen and (min-device-width: 414px) {
+    u ~ div .email-container {
+        min-width: 414px !important;
+    }
+}
+
+@media only screen and (max-device-width: 599px), only screen and (max-width: 599px) {
+
+    .eh {
+        height:auto !important;
+    }
+    .desktop {
+        display: none !important;
+        height: 0 !important;
+        margin: 0 !important;
+        max-height: 0 !important;
+        overflow: hidden !important;
+        padding: 0 !important;
+        visibility: hidden !important;
+        width: 0 !important;
+    }
+    .mobile {
+        display: block !important;
+        width: auto !important;
+        height: auto !important;
+        float: none !important;
+    }
+    .email-container {
+        width: 100% !important;
+        margin: auto !important;
+    }
+    .stack-column,
+    .stack-column-center {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        direction: ltr !important;
+    }
+    .wid-auto {
+        width:auto !important;
+    }
+
+    .table-w-full-mobile {
+        width: 100%;
+    }
+
+    
+    
+
+    .mobile-center {
+        text-align: center;
+    }
+
+    .mobile-center > table {
+        display: inline-block;
+        vertical-align: inherit;
+    }
+
+    .mobile-left {
+        text-align: left;
+    }
+
+    .mobile-left > table {
+        display: inline-block;
+        vertical-align: inherit;
+    }
+
+    .mobile-right {
+        text-align: right;
+    }
+
+    .mobile-right > table {
+        display: inline-block;
+        vertical-align: inherit;
+    }
+
+}
