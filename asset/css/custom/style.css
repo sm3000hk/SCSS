@@ -54,7 +54,7 @@ Description: This Template is created for web template
   box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.15); }
 
 .common_input_after {
-  background: #288feb;
+  background: #0b2440;
   color: #fff;
   content: "\f0d7 ";
   cursor: pointer;
@@ -184,7 +184,7 @@ body {
   .owl-nav {
     font-size: 25px; } }
 .owl-nav .owl-prev {
-  background: #288feb;
+  background: #0b2440;
   left: 0; }
   .owl-nav .owl-prev:hover {
     background: #222; }
@@ -208,7 +208,7 @@ body {
   background: #222;
   right: 0; }
   .owl-nav .owl-next:hover {
-    background: #288feb; }
+    background: #0b2440; }
   @media only screen and (min-width: 1200px) and (max-width: 1300px) {
     .owl-nav .owl-next {
       right: 0px; } }
@@ -251,7 +251,7 @@ select {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s; }
   select:focus, select:hover {
-    border: 1px solid #288feb; }
+    border: 1px solid #0b2440; }
 
 .select_option_one,
 .select_option_two {
@@ -282,7 +282,7 @@ select {
 .romana_header_top_left {
   padding: 8px 0px; }
   .romana_header_top_left .lang {
-    background: #288feb none repeat scroll 0 0;
+    background: #0b2440 none repeat scroll 0 0;
     left: 0;
     list-style: outside none none;
     margin: 0;
@@ -322,7 +322,7 @@ select {
     cursor: pointer;
     display: inline-block; }
     .romana_header_top_left .language_option:hover i {
-      color: #288feb; }
+      color: #0b2440; }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
       .romana_header_top_left .language_option {
         margin-top: 20px; } }
@@ -351,7 +351,7 @@ select {
     color: #fff;
     font-size: 13px; }
     .romana_header_top_left a:hover i {
-      color: #288feb; }
+      color: #0b2440; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .romana_header_top_left a {
         font-size: 12px; } }
@@ -383,7 +383,7 @@ select {
       .romana_header_top_right ul li a .icofont.icofont-social-google-plus {
         font-size: 15px; }
       .romana_header_top_right ul li a:hover {
-        color: #288feb; }
+        color: #0b2440; }
 
 /* ==================================== Header-Bottom Css ======================= */
 .romana_header_bottom {
@@ -457,11 +457,11 @@ nav#navbar ul.nav {
           margin: 0;
           padding: 15px; } }
       nav#navbar ul.nav li a:hover {
-        color: #288feb; }
+        color: #0b2440; }
         @media only screen and (min-width: 0px) and (max-width: 767px) {
           nav#navbar ul.nav li a:hover {
             color: #ffffff;
-            background-color: #288feb; } }
+            background-color: #0b2440; } }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
       nav#navbar ul.nav li {
         border: 1px solid #d2d2d2;
@@ -474,7 +474,7 @@ nav#navbar ul.nav {
       nav#navbar ul.nav li ul li {
         border: 1px solid #d2d2d2; } }
   nav#navbar ul.nav li.active a {
-    color: #288feb; }
+    color: #0b2440; }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
       nav#navbar ul.nav li.active a:hover {
         color: #fff; } }
@@ -490,7 +490,7 @@ nav#navbar ul.nav {
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   nav#navbar ul.nav li ul.dropdown-menu li {
-    border-left: 3px solid #288feb; } }
+    border-left: 3px solid #0b2440; } }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   nav#navbar ul.nav li ul.dropdown-menu .menu-collumn {
@@ -500,7 +500,7 @@ nav#navbar ul.nav {
   nav#navbar ul.nav li ul.dropdown-menu {
     width: 200px;
     background: #fff;
-    border: 3px solid #288feb;
+    border: 3px solid #0b2440;
     position: absolute;
     z-index: 2;
     left: 0;
@@ -528,7 +528,7 @@ nav#navbar ul.nav {
     content: '\eb79';
     font-family: "IcoFont";
     margin-right: 12px;
-    color: #288feb; }
+    color: #0b2440; }
 
   nav#navbar ul.nav li ul.dropdown-menu.mega-menu {
     width: 600px;
@@ -586,7 +586,7 @@ nav#navbar ul.nav {
     .romana_client_btn {
       margin-top: 2px; } }
   .romana_client_btn a {
-    background: #288feb;
+    background: #0b2440;
     width: 145px;
     font-size: 13px;
     font-weight: 500;
@@ -612,7 +612,7 @@ nav#navbar ul.nav {
 
 .romana_client_log_in {
   background: #222;
-  border: 3px solid #288feb;
+  border: 3px solid #0b2440;
   right: 0;
   list-style: outside none none;
   margin: 0;
@@ -640,7 +640,7 @@ nav#navbar ul.nav {
     margin-bottom: 10px;
     padding: 0 10px; }
   .romana_client_log_in input[type=submit] {
-    background: #288feb;
+    background: #0b2440;
     color: #fff;
     padding: 0px 20px;
     margin-top: 10px;
@@ -659,14 +659,14 @@ nav#navbar ul.nav {
   position: relative; }
   .romana_client_log_in_after a {
     background: transparent none repeat scroll 0 0;
-    color: #288feb;
+    color: #0b2440;
     transition-duration: 0.4s;
     width: 80px !important; }
     .romana_client_log_in_after a:hover {
       color: #fff; }
 
 .romana_client_log_in_after:after {
-  border-color: transparent transparent #288feb;
+  border-color: transparent transparent #0b2440;
   border-style: solid;
   border-width: 15px 8px 11px;
   content: "";
@@ -761,8 +761,8 @@ small {
       padding-right: 15px;
       padding-top: 90px; } }
   .romana_hero_text h1 {
-    color: #288feb;
-    font-size: 18px;
+    color: #53565A;
+    font-size: 24px;
     font-weight: 400;
     margin-bottom: 30px; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -826,8 +826,8 @@ small {
       .romana_slider_btn a {
         margin: 0; } }
   .romana_slider_btn .romana_slider_btn1 {
-    background: #288feb;
-    border: 1px solid #288feb;
+    background: #0b2440;
+    border: 1px solid #0b2440;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     width: 185px;
@@ -846,7 +846,7 @@ small {
         line-height: 42px; } }
   .romana_slider_btn .romana_slider_btn2 {
     background: none;
-    border: 1px solid #288feb;
+    border: 1px solid #0b2440;
     color: #222;
     width: 185px;
     height: 55px;
@@ -931,7 +931,7 @@ small {
       padding-left: 8px; } }
 
 .romana_search_submit input {
-  background: #288feb;
+  background: #0b2440;
   border: 3px solid #fff;
   border-radius: 50px;
   color: #ffffff;
@@ -1024,7 +1024,7 @@ small {
   color: #fff; }
 
 .romana_single_check input[type=checkbox]:checked + label {
-  background: #288feb; }
+  background: #0b2440; }
 
 .romana_single_check input[type=checkbox] {
   visibility: hidden; }
@@ -1063,7 +1063,7 @@ small {
         font-size: 20px; } }
 
 .romana_single_choose:hover h3 {
-  color: #288feb; }
+  color: #0b2440; }
 
 /* ==================================== romana_hosting_plan_area Css ======================= */
 .romana_hosting_plan_area {
@@ -1099,7 +1099,7 @@ small {
 .romana_single_plan .romana_plan_btn {
   margin-top: 30px; }
   .romana_single_plan .romana_plan_btn a {
-    background: #288feb;
+    background: #0b2440;
     width: 145px; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .romana_single_plan .romana_plan_btn a {
@@ -1144,7 +1144,7 @@ small {
   .romana_web_hosting_text .romana_web_hosting_btn {
     margin-top: 34px; }
     .romana_web_hosting_text .romana_web_hosting_btn a {
-      background: #288feb; }
+      background: #0b2440; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .romana_web_hosting_text .romana_web_hosting_btn a {
           width: 160px;
@@ -1204,7 +1204,7 @@ small {
     font-size: 30px;
     text-transform: uppercase;
     margin: 20px 0px;
-    color: #288feb;
+    color: #0b2440;
     font-weight: 700; }
     .romana_single_table h3 span {
       font-size: 16px;
@@ -1220,7 +1220,7 @@ small {
         .romana_single_table ul li {
           font-size: 15px; } }
   .romana_single_table h3 {
-    color: #288feb;
+    color: #0b2440;
     font-weight: 700;
     font-size: 30px;
     margin-top: 20px; }
@@ -1235,7 +1235,7 @@ small {
     margin-top: 22px;
     margin-bottom: 30px; }
     .romana_single_table .romana_price_btn a {
-      background: #288feb; }
+      background: #0b2440; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .romana_single_table .romana_price_btn a {
           font-size: 12px;
@@ -1244,7 +1244,7 @@ small {
           line-height: 46px; } }
 
 .romana_single_table.active {
-  border: 1px solid #288feb;
+  border: 1px solid #0b2440;
   margin-top: 63px;
   padding-top: 66px;
   padding-bottom: 20px; }
@@ -1348,7 +1348,7 @@ small {
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .romana_awesome_service_area {
       margin: 0px 0 -63px;
-      background: #288feb; } }
+      background: #0b2440; } }
   .romana_awesome_service_area .romana_awesome_service_content {
     margin-top: 45px; }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -1431,7 +1431,7 @@ small {
           .romana_footer_area .footer_menu ul li a {
             font-size: 14px; } }
         .romana_footer_area .footer_menu ul li a:hover {
-          color: #288feb; }
+          color: #0b2440; }
   .romana_footer_area .footer_border_right {
     border-right: 1px solid #404040; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1475,7 +1475,7 @@ small {
     .romana_footer_bottom_content {
       font-size: 13px; } }
   .romana_footer_bottom_content span {
-    color: #288feb;
+    color: #0b2440;
     padding-right: 4px; }
 
 /* ==================================== All_Page_Common Css ======================= */
@@ -1505,7 +1505,7 @@ small {
   height: 100%; }
 
 .breadcrumb {
-  background-color: #288feb;
+  background-color: #0b2440;
   border-radius: 50px;
   height: 50px;
   line-height: 50px;
@@ -1526,7 +1526,7 @@ small {
       .breadcrumb li a {
         font-size: 12px; } }
   .breadcrumb li.active a {
-    color: #288feb; }
+    color: #0b2440; }
   .breadcrumb li + li::before {
     color: #fff;
     content: "- ";
@@ -1539,7 +1539,7 @@ small {
   .romana_welcome_webhost_area {
     padding-bottom: 25px; } }
 .romana_welcome_webhost_area .romana_welcome_img img {
-  border: 1px solid #288feb;
+  border: 1px solid #0b2440;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   width: 100%; }
@@ -1595,7 +1595,7 @@ small {
   right: -92px;
   top: 60%;
   position: absolute;
-  background: #288feb; }
+  background: #0b2440; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .romana_team_crsl .owl-next {
       right: 0;
@@ -1636,7 +1636,7 @@ small {
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s; }
   .romana_team_crsl .romana_single_client_text_img:hover .romana_single_client_text {
-    border: 1px solid #288feb;
+    border: 1px solid #0b2440;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s; }
 
@@ -1708,7 +1708,7 @@ small {
       .romana_blog_page_area label {
         left: -18px; } }
   .romana_blog_page_area .romana_search_icon {
-    background: #288feb;
+    background: #0b2440;
     height: 56px;
     position: absolute;
     right: 49px;
@@ -1779,7 +1779,7 @@ small {
         text-transform: capitalize;
         font-weight: 400; }
         .romana_blog_page_area .widget.widget_category ul li a:hover {
-          color: #288feb; }
+          color: #0b2440; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .romana_blog_page_area .widget.widget_category {
         padding: 45px 17px; } }
@@ -1822,7 +1822,7 @@ small {
             font-size: 13px; } }
       .romana_blog_page_area .romana_post_img_text .romana_post_text span {
         font-size: 15px;
-        color: #288feb;
+        color: #0b2440;
         display: block;
         margin-top: -30px; }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1887,7 +1887,7 @@ small {
         .romana_blog_page_area .romana_blog_text.text-center h2 a {
           font-size: 23px; } }
   .romana_blog_page_area .romana_blog_text.text-center a {
-    background: #288feb;
+    background: #0b2440;
     margin-top: 14px;
     position: relative; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1922,8 +1922,8 @@ small {
         .romana_blog_page_area .romana_blog_pagination li a:last-child {
           width: 50px; }
         .romana_blog_page_area .romana_blog_pagination li a:hover {
-          background: #288feb;
-          border: 1px solid #288feb;
+          background: #0b2440;
+          border: 1px solid #0b2440;
           color: #fff; }
   .romana_blog_page_area .widget.romana_flicker_img {
     margin-top: 75px; }
@@ -1947,7 +1947,7 @@ small {
   background: #f2f2f2 none repeat scroll 0 0;
   font-style: italic;
   padding: 25px 23px 15px;
-  color: #288feb;
+  color: #0b2440;
   margin: 33px 0px; }
 
 .romana_tag_share {
@@ -1958,7 +1958,7 @@ small {
     .romana_tag_share {
       font-size: 12px; } }
   .romana_tag_share a {
-    color: #288feb; }
+    color: #0b2440; }
   .romana_tag_share b {
     font-weight: 500; }
   .romana_tag_share .romana_tag {
@@ -2042,7 +2042,7 @@ small {
           margin-top: 2px; } }
     .romana_comment_replay .romana_comment_text h5 {
       text-transform: capitalize;
-      color: #288feb;
+      color: #0b2440;
       font-weight: 500; }
 
 .romana_leave_comment form {
@@ -2068,7 +2068,7 @@ small {
     transition-duration: 0.3s;
     width: 100%; }
     .romana_leave_comment form textarea:focus {
-      border: 1px solid #288feb; }
+      border: 1px solid #0b2440; }
   .romana_leave_comment form .text-field label {
     height: 215px; }
   .romana_leave_comment form .romana_leave_comment_btn {
@@ -2076,11 +2076,11 @@ small {
     position: relative;
     z-index: 999; }
     .romana_leave_comment form .romana_leave_comment_btn input {
-      background: #288feb;
-      border: 1px solid #288feb; }
+      background: #0b2440;
+      border: 1px solid #0b2440; }
       .romana_leave_comment form .romana_leave_comment_btn input:hover {
         background: #eef6fd;
-        border: 1px solid #288feb;
+        border: 1px solid #0b2440;
         color: #222; }
 
 /* ==============================================================================================
@@ -2136,7 +2136,7 @@ small {
             .romana_cart_area .romana_single_cart .romana_inner_cart .product .padding_l {
               padding-left: 5px; } }
   .romana_cart_area .romana_cart_head {
-    background: #288feb; }
+    background: #0b2440; }
     .romana_cart_area .romana_cart_head .romana_inner_cart {
       overflow: hidden;
       padding: 0px;
@@ -2206,21 +2206,21 @@ small {
   .romana_cart_total .romana_cart_btn {
     text-align: center; }
   .romana_cart_total .romana_cart_btn1 {
-    background: #288feb;
+    background: #0b2440;
     width: 180px;
     font-size: 12px; }
     .romana_cart_total .romana_cart_btn1:hover {
       background: none;
-      border: 1px solid #288feb;
-      color: #288feb; }
+      border: 1px solid #0b2440;
+      color: #0b2440; }
   .romana_cart_total .romana_cart_btn2 {
-    border: 1px solid #288feb;
+    border: 1px solid #0b2440;
     color: #000;
     width: 180px;
     margin-left: 6px; }
     .romana_cart_total .romana_cart_btn2:hover {
-      background: #288feb;
-      border: 1px solid #288feb;
+      background: #0b2440;
+      border: 1px solid #0b2440;
       color: #fff; }
   .romana_cart_total .romana_cart_total_right {
     width: 270px; }
@@ -2233,12 +2233,12 @@ small {
         float: right;
         padding-left: 60px; }
         .romana_cart_total .romana_cart_total_right li span a {
-          color: #288feb; }
+          color: #0b2440; }
           .romana_cart_total .romana_cart_total_right li span a i {
             font-size: 13px;
             margin-right: 3px; }
     .romana_cart_total .romana_cart_total_right li:last-child {
-      border-top: 2px solid #288feb;
+      border-top: 2px solid #0b2440;
       font-weight: 500; }
 
 .romana_cart_bottom {
@@ -2260,7 +2260,7 @@ small {
         padding-left: 17px;
         width: 100%; } }
   .romana_cart_bottom .romana_search_submit input {
-    background: #288feb none repeat scroll 0 0;
+    background: #0b2440 none repeat scroll 0 0;
     height: 52px;
     top: 1px;
     right: -1px; }
@@ -2305,7 +2305,7 @@ small {
     border: 1px solid #dddddc;
     width: 100%; }
   .romana_cart_area2 .romana_search_submit input {
-    background: #288feb none repeat scroll 0 0;
+    background: #0b2440 none repeat scroll 0 0;
     border: medium none;
     height: 50px;
     position: absolute;
@@ -2342,7 +2342,7 @@ small {
       margin-bottom: 0px;
       margin-top: 7px;
       width: 62% !important;
-      color: #288feb;
+      color: #0b2440;
       font-weight: 600; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .romana_cart_area2 .romana_single_cart .romana_inner_cart .product {
@@ -2374,7 +2374,7 @@ small {
       width: 80px; }
   .romana_cart_area2 .romana_cart_head {
     background: #d7eafa;
-    border-bottom: 1px solid #288feb; }
+    border-bottom: 1px solid #0b2440; }
     .romana_cart_area2 .romana_cart_head .romana_inner_cart {
       overflow: hidden;
       padding: 0px;
@@ -2389,10 +2389,10 @@ small {
         margin-bottom: 10px;
         margin-top: -7px; }
   .romana_cart_area2 .duration {
-    color: #288feb !important;
+    color: #0b2440 !important;
     font-weight: 600; }
   .romana_cart_area2 .total a {
-    background: #288feb;
+    background: #0b2440;
     overflow: hidden; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .romana_cart_area2 .total a {
@@ -2412,7 +2412,7 @@ small {
   padding-bottom: 42px; }
 
 .romana_an_account {
-  background: #288feb;
+  background: #0b2440;
   line-height: 70px;
   height: 70px;
   color: #fff;
@@ -2425,7 +2425,7 @@ small {
 
 .romana_check_out_btn a {
   background: #fff;
-  color: #288feb;
+  color: #0b2440;
   border: 2px solid #fff; }
   .romana_check_out_btn a:hover {
     background: #1c7bd0 none repeat scroll 0 0;
@@ -2439,7 +2439,7 @@ small {
       width: 150px; } }
 
 .romana_registration_form2 {
-  border-top: 0px solid #288feb;
+  border-top: 0px solid #0b2440;
   box-shadow: 0 0px 0px rgba(0, 0, 0, 0.16);
   padding: 0px;
   margin-top: -100px; }
@@ -2488,7 +2488,7 @@ small {
     .romana_cart_total_right li span {
       float: right;
       padding-left: 60px;
-      color: #288feb; }
+      color: #0b2440; }
   .romana_cart_total_right li:last-child {
     border-top: 1px solid #a8d6fe;
     padding-top: 10px;
@@ -2497,7 +2497,7 @@ small {
     text-align: right;
     margin-top: 20px; }
     .romana_cart_total_right .pTo_check_btn a {
-      background: #288feb;
+      background: #0b2440;
       width: 220px; }
 
 .romana_p_methid {
@@ -2596,10 +2596,10 @@ small {
   content: ""; }
 
 input[type=radio]:checked ~ .check {
-  border: 1px solid #288feb; }
+  border: 1px solid #0b2440; }
 
 input[type=radio]:checked ~ .check::before {
-  background: #288feb; }
+  background: #0b2440; }
 
 /* ==============================================================================================
     ************** Faq Page ******************
@@ -2664,7 +2664,7 @@ input[type=radio]:checked ~ .check::before {
         font-size: 12px;
         margin: 2px; } }
   .romana_tab_area ul.tabs li.current {
-    background: #288feb;
+    background: #0b2440;
     color: #fff;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s; }
@@ -2674,7 +2674,7 @@ input[type=radio]:checked ~ .check::before {
   padding-bottom: 65px; }
   .romana_tab_area .tab-content .romana_single_tab_content.active h2,
   .romana_tab_area .tab-content .romana_single_tab_content:hover h2 {
-    background: #288feb;
+    background: #0b2440;
     color: #fff; }
     .romana_tab_area .tab-content .romana_single_tab_content.active h2 span,
     .romana_tab_area .tab-content .romana_single_tab_content:hover h2 span {
@@ -2709,7 +2709,7 @@ input[type=radio]:checked ~ .check::before {
         .romana_tab_area .tab-content .romana_single_tab_content h2 b {
           padding-left: 0px; } }
     .romana_tab_area .tab-content .romana_single_tab_content h2 span {
-      background: #288feb;
+      background: #0b2440;
       border: 5px solid #abd7ff;
       border-radius: 50%;
       display: block;
@@ -2769,16 +2769,16 @@ input[type=radio]:checked ~ .check::before {
       text-align: center; } }
   .romana_404_area .romana_404_text h1 {
     font-size: 115px;
-    color: #288feb;
+    color: #0b2440;
     font-weight: 700; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .romana_404_area .romana_404_text h1 {
         font-size: 90px; } }
   .romana_404_area .romana_404_text span {
-    color: #288feb;
+    color: #0b2440;
     font-size: 20px; }
   .romana_404_area .romana_404_text a {
-    background: #288feb;
+    background: #0b2440;
     margin-top: 23px;
     position: relative;
     width: 200px; }
@@ -2817,7 +2817,7 @@ input[type=radio]:checked ~ .check::before {
     .romana_registration_form_area .romana_registration_btn {
       left: 52%; } }
   .romana_registration_form_area .romana_registration_btn p {
-    background: #288feb;
+    background: #0b2440;
     border: 5px solid #d4ebff;
     width: 235px;
     font-size: 22px;
@@ -2850,7 +2850,7 @@ input[type=radio]:checked ~ .check::before {
   transition-duration: 0.3s; }
   .romana_registration_form_area input:focus,
   .romana_registration_form_area label:focus {
-    border: 1px solid #288feb; }
+    border: 1px solid #0b2440; }
 .romana_registration_form_area label,
 .romana_registration_form_area select {
   font-weight: 400;
@@ -2881,14 +2881,14 @@ input[type=radio]:checked ~ .check::before {
       margin-top: 24px;
       padding-left: 1px; } }
   .romana_registration_form_area .condition_check span {
-    color: #288feb; }
+    color: #0b2440; }
 .romana_registration_form_area .romana_single_check {
   padding-right: 25px; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .romana_registration_form_area .romana_single_check {
       padding-right: 18px; } }
 .romana_registration_form_area .romana_single_check label {
-  background: #288feb none repeat scroll 0 0;
+  background: #0b2440 none repeat scroll 0 0;
   top: -2px;
   width: 14px;
   height: 14px;
@@ -2910,7 +2910,7 @@ input[type=radio]:checked ~ .check::before {
       float: left;
       margin-right: 6px; } }
   .create_account_btn a {
-    background: #288feb;
+    background: #0b2440;
     width: 220px; }
     @media only screen and (min-width: 480px) and (max-width: 767px) {
       .create_account_btn a {
@@ -2918,7 +2918,7 @@ input[type=radio]:checked ~ .check::before {
         font-size: 11px; } }
 
 .romana_registration_form {
-  border-top: 2px solid #288feb;
+  border-top: 2px solid #0b2440;
   box-shadow: 0 -1px 7px rgba(0, 0, 0, 0.16);
   padding: 95px 80px 38px;
   position: relative;
@@ -3004,7 +3004,7 @@ select:focus.select_option_one {
     width: 100%;
     resize: none; }
     .romana_gmap_area textarea:focus {
-      border: 1px solid #288feb; }
+      border: 1px solid #0b2440; }
   .romana_gmap_area .text-field label {
     height: 215px; }
   .romana_gmap_area .romana_submit_btn {
@@ -3013,12 +3013,12 @@ select:focus.select_option_one {
     left: 50%;
     margin-left: -93px; }
     .romana_gmap_area .romana_submit_btn input {
-      background: #288feb;
+      background: #0b2440;
       width: 187px;
-      border: 1px solid #288feb; }
+      border: 1px solid #0b2440; }
       .romana_gmap_area .romana_submit_btn input:hover {
         background: #eef6fd;
-        border: 1px solid #288feb;
+        border: 1px solid #0b2440;
         color: #222; }
 
 .romana_gmap_area .romana_registration_btn {
@@ -3049,7 +3049,7 @@ select:focus.select_option_one {
 .romana_contact_info {
   width: 30%;
   float: right;
-  background: #288feb;
+  background: #0b2440;
   padding: 32px 26px 5px 26px;
   color: #fff; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
