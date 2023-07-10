@@ -232,10 +232,10 @@ body {
   overflow: hidden; }
 
 .hvr-bounce-to-right:before {
-  background: #1c7bd0; }
+  background: #84bd00; }
 
 .hvr-bounce-to-left::before {
-  background: #1c7bd0 none repeat scroll 0 0; }
+  background: #84bd00 none repeat scroll 0 0; }
 
 .romana_single_plan:hover .hvr-grow {
   transform: scale(1.1); }
@@ -868,7 +868,7 @@ small {
         line-height: 42px; } }
 
 .hvr-shutter-out-horizontal::before {
-  background: #1c7bd0 none repeat scroll 0 0; }
+  background: #84bd00 none repeat scroll 0 0; }
 
 .romana_hero_left_text_img.animated {
   animation-duration: 0.5s; }
@@ -1378,7 +1378,7 @@ small {
       background: #fff;
       border: 2px solid #fff; }
       .romana_awesome_service_area .romana_awesome_service_content .romana_awesome_service_btn a:hover {
-        background: #1c7bd0;
+        background: #84bd00;
         color: #fff;
         border: 2px solid #fff; }
 
@@ -2428,7 +2428,7 @@ small {
   color: #0b2440;
   border: 2px solid #fff; }
   .romana_check_out_btn a:hover {
-    background: #1c7bd0 none repeat scroll 0 0;
+    background: #84bd00 none repeat scroll 0 0;
     border: 2px solid #fff;
     color: #fff; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
