@@ -685,7 +685,7 @@ nav#navbar ul.nav {
 
 .hero_slider_bg {
   background: #fff;
-  height: 593px; }
+  height: auto; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .hero_slider_bg {
       height: 440px; } }
