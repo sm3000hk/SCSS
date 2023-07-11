@@ -1341,14 +1341,14 @@ small {
 
 /* ==================================== romana_awesome_service_area Css =================== */
 .romana_awesome_service_area {
-  background: #0b2440;
+  background: #ffffff;
   background-repeat: no-repeat;
   background-position: center center;
   margin: -50px 0px; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .romana_awesome_service_area {
       margin: 0px 0 -63px;
-      background: #0b2440; } }
+      background: #ffffff; } }
   .romana_awesome_service_area .romana_awesome_service_content {
     margin-top: 45px; }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
