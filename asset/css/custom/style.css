@@ -1341,7 +1341,7 @@ small {
 
 /* ==================================== romana_awesome_service_area Css =================== */
 .romana_awesome_service_area {
-  background: url("../../images/awesome_service_bg.png");
+  background: #0b2440;
   background-repeat: no-repeat;
   background-position: center center;
   margin: -50px 0px; }
