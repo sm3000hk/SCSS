@@ -734,7 +734,8 @@ small {
 
 .romana_hero_left_img {
   margin-top: 115px;
-  position: relative; }
+  position: relative;
+ align-content: center}
 
 .romana_hero_right_text_img {
   position: absolute;
