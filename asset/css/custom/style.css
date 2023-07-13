@@ -1,13 +1,4 @@
-/* =======================================================================
-Template Name:HOSTING html5 templete
-Author:  CrazyCafe
-Author URI:
-Version: 1.0
-coder Name:Romana Nasrin
-Description: This Template is created for web template
---------------------------------------------------------------------------
-*/
-/* ===================================== Import Scss ================================== */
+
 .commonh2, .romana_section_title h2, .romana_search_domain_area .romana_domain_text h2, .romana_web_hosting_text h2, .romana_single_table h2, .romana_welcome_webhost_area .romana_welcome_text h2 {
   font-size: 32px;
   font-weight: 600;
@@ -1094,7 +1085,7 @@ small {
       padding-bottom: 18px;
       padding-top: 50px; } }
   .romana_single_plan .romana_plan_icon img {
-    background: transparent url("../../images/plan_bg.png") no-repeat scroll 0 0;
+    background: transparent url("//www.persolkelly.com.sg/media/persolkellysg-2020/client/html/go/images/plan_bg.png") no-repeat scroll 0 0;
     padding: 26px 40px;
     width: 100%; }
 .romana_single_plan .romana_plan_btn {
